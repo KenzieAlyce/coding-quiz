@@ -9,8 +9,8 @@ var startBtn = document.querySelector('#startButton');
 
 startBtn.addEventListener("click", startQuiz),
 function startQuiz() {
-questionOne.classList.add('hidden'); // hides the Welcome section
-quizSec.classList.remove('hidden'); // display/shows the Quiz section
+welcomeSec.classList.add('hidden'); // hides the Welcome section
+questionOne.classList.remove('hidden'); // display/shows the Quiz section
 }
 
 //function startTimer() { 
